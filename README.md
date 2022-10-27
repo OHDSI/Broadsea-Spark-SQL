@@ -15,6 +15,7 @@ docker-compose down
 
 See the file "test_spark_sql.R" in this GitHub repository for an example of accessing 
 this Spark SQL Docker container using the OHDSI HADES DatabaseConnector R package.
+Any values may be used for the userid and password.
 
 ## Other useful Docker commands
 
