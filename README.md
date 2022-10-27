@@ -8,7 +8,7 @@ Run the Docker container
 docker-compose up -d
 ```
 
-Stop the Docker container - **ALL THE DATA IN SPARK SQL WILL BE LOST*
+Stop the Docker container - *ALL THE DATA IN SPARK SQL WILL BE LOST*
 ```bash
 docker-compose down
 ```
