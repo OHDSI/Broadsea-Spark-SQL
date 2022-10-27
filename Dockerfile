@@ -1,4 +1,7 @@
 FROM bitnami/spark
+
+MAINTAINER Lee Evans - www.ltscomputingllc.com
+
 USER root
 
 # install maven
