@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  broadsea-spark-sql:
+    build: .
+    image: ohdsi/broadsea-spark-sql:1.0.0
+    container_name: broadsea-spark-sql
+    deploy:
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "10000:10000"
