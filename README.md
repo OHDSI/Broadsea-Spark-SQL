@@ -1,6 +1,7 @@
 # Broadsea-Spark-SQL
 
 Spark SQL with Delta Lake extension - a Docker container for OHDSI software testing
+based on the bitnami/spark Docker image.
 
 Run the Docker container
 ```bash
