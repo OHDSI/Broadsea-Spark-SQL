@@ -21,7 +21,7 @@ Any values may be used for the userid and password.
 
 Pull a specific Docker image version from Docker Hub
 ```bash
-docker pull ohdsi/broadsea-spark-sql:1.0.0
+docker pull ohdsi/broadsea-spark-sql:1.0.1
 ```
 
 Build the Docker image - in general this is not needed, use the image in Docker Hub instead
