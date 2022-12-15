@@ -4,7 +4,7 @@ services:
 
   broadsea-spark-sql:
     build: .
-    image: ohdsi/broadsea-spark-sql:1.0.0
+    image: ohdsi/broadsea-spark-sql:1.0.1
     container_name: broadsea-spark-sql
     deploy:
       restart_policy:
