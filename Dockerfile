@@ -9,8 +9,8 @@ RUN apt-get update && apt-get -y install maven
 
 # add delta lake support
 WORKDIR /spark_home
-RUN mvn dependency:copy -Dartifact=io.delta:delta-core_2.12:2.1.0 -DoutputDirectory=/spark_home/jars
-RUN mvn dependency:copy -Dartifact=io.delta:delta-storage:2.1.0 -DoutputDirectory=/spark_home/jars
+RUN mvn dependency:copy -Dartifact=io.delta:delta-core_2.12:2.1.0 -DoutputDirectory=/opt/bitnami/spark/jars/
+RUN mvn dependency:copy -Dartifact=io.delta:delta-storage:2.1.0 -DoutputDirectory=/opt/bitnami/spark/jars/
 
 # needed so that thrift server can create the megastore_db directory
 RUN chmod g+w /opt/bitnami/spark
